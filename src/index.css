@@ -31,3 +31,92 @@ body {
     background-color: #f9f9f9;
   }
 }
+
+
+
+
+/* --- استيراد الخطوط الخارجية --- */
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Manrope:wght@200..800&family=Special+Gothic+Expanded+One&display=swap');
+
+/* --- تعريف متغيرات الألوان والأوزان --- */
+:root {
+    /* الخطوط والأوزان المستخدمة */
+    --rr-font-main: 'Manrope', sans-serif;
+    --rr-font-display: 'Gilda Display', serif;
+    --rr-font-special: 'Special Gothic Expanded One', sans-serif;
+
+    --rr-regular: 400;
+    --rr-medium: 500;
+    --rr-semibold: 600;
+    --rr-bold: 700;
+
+    --rr-Yellow-50: #FFD400;
+    --rr-Yellow-55: #FFD819;
+    --rr-Yellow-70: #FFE566;
+    --rr-Yellow-80: #FFEE99;
+    --rr-Yellow-90: #FFF6CC;
+    --rr-Yellow-95: #FFFAE5;
+    --rr-Yellow-97: #FFFCF0;
+    --rr-Yellow-99: #FFFEFA;
+
+    
+    --rr-White-90: #E4E4E7;
+    --rr-White-95: #F1F1F3;
+    --rr-White-97: #F7F7F8;
+    --rr-White-99: #FCFCFD;
+
+   
+    --rr-Grey-10: #1A1A1A;
+    --rr-Grey-15: #262626;
+    --rr-Grey-20: #333333;
+    --rr-Grey-30: #4C4C4D;
+    --rr-Grey-35: #59595A;
+    --rr-Grey-40: #656567;
+    --rr-Grey-60: #98989A;
+    --rr-Grey-70: #B3B3B3;
+    
+}
+
+
+* { 
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+.marginLeftRight{
+
+    margin-right:80px;
+    margin-left:80px;}
+
+
+
+h1,h2,h3 {
+    font-family: var(--rr-font-main);
+    font-weight: var(--rr-bold);
+}
+
+
+body {
+  margin: 0;
+  font-family: var(--rr-font-main);
+  background: #f9f9f9;
+  font-family: var(--rr-font-main);
+  background-color: var(--rr-White-99);
+  color: var(--rr-Grey-10);
+  margin: 0;
+  padding: 0;
+}
+
+
+button {
+  padding: 12px 22px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.rr-primary {
+   background: var(--rr-Yellow-50);
+   }
+.rr-secondary { 
+  background: var(--rr-White-95); 
+  border: 1px solid var(--rr-White-95); }
