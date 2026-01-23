@@ -1,11 +1,21 @@
+import ExperienceSection from "../components/NavBar/Experience/ExperienceSection"
+import FaqSection from "../components/NavBar/FAQ/FaqSection";
 
-
-const Home = () => {
+export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <ExperienceSection />
+      <FaqSection/>
     </div>
-  )
+  );
 }
 
-export default Home
+// const Home = () => {
+//   return (
+//     <div>
+//       <h1>Home Page</h1>
+//     </div>
+//   )
+// }
+
+// export default Home

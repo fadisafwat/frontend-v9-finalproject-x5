@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Products from './pages/Products'
 import NavBar from './components/NavBar/NavBar'
 //import { FaHeadset, FaHouseUser, FaProductHunt } from 'react-icons/fa'
-//import './App.css'
+import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)

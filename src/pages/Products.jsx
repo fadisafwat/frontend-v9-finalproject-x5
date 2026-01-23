@@ -1,10 +1,19 @@
-
-const Products = () => {
-  return (
+import FaqSection from "../components/NavBar/FAQ/FaqSection"
+export default function Products(){
+return (
     <div>
       <h1>Products Page</h1>
     </div>
   )
 }
 
-export default Products
+// }
+// const Products = () => {
+//   return (
+//     <div>
+//       <h1>Products Page</h1>
+//     </div>
+//   )
+// }
+
+// export default Products

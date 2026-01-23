@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Manrope:wght@200..800&family=Special+Gothic+Expanded+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+
+
+:root {
+    --gd-grey-40: #656567;
+    --gd-grey-60:#98989A;
+    --gd-white-95: #f1f1f3;
+    --gd-grey-10:#1A1A1A;
+    --gd-yellow-50:#FFD400;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
