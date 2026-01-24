@@ -1,10 +1,17 @@
 
-
+import Button from "../components/Button"
+import Hero from "../components/Hero"
+import Steps from "../components/Steps"
 const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    
+     <>
+     <Hero/>
+     <Steps/>
+     
+
+     </>
+    
   )
 }
 
