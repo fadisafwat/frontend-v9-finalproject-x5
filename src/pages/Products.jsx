@@ -8,19 +8,17 @@ import "./product.css";
 
 const Products = () => {
   return (
-     <>
-    
+    <>
       <section className="rr-product marginLeftRight">
-      <ProductGallery />
-      <div className="right">
-        <ProductInfo />
-        <ProductOptions />
-        <ShippingInfo />
-        <ProductFeatures />
-      </div>
-   
-    </section>
-     </>
+        <ProductGallery />
+        <div className="right">
+          <ProductInfo />
+          <ProductOptions />
+          <ShippingInfo />
+          <ProductFeatures />
+        </div>
+      </section>
+    </>
   );
 };
 

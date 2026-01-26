@@ -6,9 +6,6 @@ import Products from './pages/Products'
 import NavBar from './components/NavBar/NavBar'
 // import Hero from './components/Hero'
 
-
-
-
 function App() {
   const [count, setCount] = useState(0)
   const navItems = [
