@@ -1,8 +1,8 @@
-import ProductGallery from "../components/ProductGallery";
-import ProductInfo from "../components/ProductInfo";
-import ProductOptions from "../components/ProductOptions";
-import ShippingInfo from "../components/ShippingInfo";
-import ProductFeatures from "../components/ProductFeatures";
+import ProductGallery from "../components/Product/ProductGallery";
+import ProductInfo from "../components/Product/ProductInfo";
+import ProductOptions from "../components/Product/ProductOptions";
+import ShippingInfo from "../components/Product/ShippingInfo";
+import ProductFeatures from "../components/Product/ProductFeatures";
 import "./product.css";
 
 

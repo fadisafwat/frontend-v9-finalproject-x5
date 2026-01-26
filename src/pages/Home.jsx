@@ -1,7 +1,7 @@
 
-import Button from "../components/Button"
-import Hero from "../components/Hero"
-import Steps from "../components/Steps"
+// import Button from "../components/Button"
+import Hero from "../components/Hero/Hero"
+import Steps from "../components/Steps/Steps"
 
 const Home = () => {
   return (

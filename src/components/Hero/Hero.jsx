@@ -1,8 +1,7 @@
 
 import Button from './Button'
 import StatCard from './StatCard'
-import './hero.css'
-
+import './Hero.css'
 
 
 export default function Hero() {

@@ -1,6 +1,6 @@
 
 import StepCard from './StepCard'
-import './steps.css'
+import './Steps.css'
 
 
 export default function Steps() {
