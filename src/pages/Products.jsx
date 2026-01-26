@@ -3,6 +3,7 @@ import ProductInfo from "../components/Product/ProductInfo";
 import ProductOptions from "../components/Product/ProductOptions";
 import ShippingInfo from "../components/Product/ShippingInfo";
 import ProductFeatures from "../components/Product/ProductFeatures";
+import FaqSection from "../components/FAQ/FaqSection";
 import "./product.css";
 
 
@@ -16,6 +17,7 @@ const Products = () => {
           <ProductOptions />
           <ShippingInfo />
           <ProductFeatures />
+          <FaqSection/>
         </div>
       </section>
     </>
