@@ -1,0 +1,117 @@
+.fsNavbar{
+    height: 95px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 161px;
+    border-bottom: 1px solid #F1F1F3;
+}
+.fsMenuBtn {
+    display: none;
+    background: transparent;
+    border: none;
+    color: inherit;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+.fsHamburger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.fsNavLinks{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 10px;
+}
+.fsNavLinks li a{
+    font-weight: 500;
+    color: #656567;
+    text-decoration: none;
+    border: 1px solid #F1F1F3;
+    border-radius: 100px;
+    padding: 14px 24px;
+}
+.fsNavLinks li a:hover{
+    color: #646cff;
+}
+.fsActiveLink{
+    background:#F7F7F8;
+    font-weight: bold;
+}
+.fsNavcart{
+    display: flex;
+    align-items: center;
+    gap: 14px;  
+}
+.Supportbutton {
+    border-radius: 100px;
+    border: 1px solid #F1F1F3;
+    padding: 14px 20px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    background-color: white;
+    color: #656567;
+}
+.Supportbutton:hover {
+    border-color: #646cff;
+}
+.Supportbutton:focus,
+.Supportbutton:focus-visible {
+    outline: 1px auto -webkit-focus-ring-color;
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+    .fsMenuBtn {
+        display: inline-block;
+    }
+    .fsNavbar{
+        padding: 24px 16px;
+    }
+    .fsNavLinks{
+        position: absolute;
+        top: 17%;
+        left: 20%;
+        right: 20%;
+        background: linear-gradient(180deg, #FFD400, rgba(77, 10, 10, 0.95));
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0.75rem 1rem;
+        gap: 10px;
+        transform-origin: top center;
+        transform: scaleY(0);
+        transition: transform 180ms ease-in-out, opacity 180ms ease-in-out;
+        opacity: 0;
+    }
+    .fsNavLinks.active {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+    .fsNavLinks li a {
+        display: block;
+    }
+    .Supportbutton{
+        display: none;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .fsMenuBtn {
+    display: none;
+  }
+  .fsNavLinks {
+    position: static;
+    flex-direction: row;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
