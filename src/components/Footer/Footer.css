@@ -1,0 +1,481 @@
+.ib-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+    .ib-top-footer {
+        display: flex;
+        border-width: 1px 0px 1px 0px;
+        border-style: solid;
+        border-color: #F1F1F3;
+    }
+
+    .ib-left-top-footer {
+        padding-right: 80px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 162px;
+        margin: 0px;
+    }
+
+    .ib-logo-hiddenitm {
+        padding-bottom: 50px;
+
+        .ib-small-screen {
+            display: none;
+        }
+
+
+
+        .ib-shop-logo {
+            padding: 10px;
+            max-width: 100px;
+            /* margin-right: 380px; */
+
+            .ib-shop-logo-img {
+                max-width: 80px;
+                max-height: 80px;
+
+            }
+        }
+    }
+
+    .ib-email-sub-btn {
+        display: flex;
+        justify-content: flex-start;
+
+        .ib_user_email {
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 20px;
+            margin-right: 10px;
+            border-radius: 32px;
+            border-width: 1px;
+            border: 1px solid #F1F1F3;
+            background-color: #FCFCFD;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+
+
+
+        }
+
+        .ib-subscribe-btn {
+            padding-top: 16px;
+            padding-right: 30px;
+            padding-bottom: 16px;
+            padding-left: 30px;
+            border-radius: 32px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 150%;
+            border: none;
+            color: #262626;
+            background-color: #FFD400;
+        }
+    }
+
+    .ib-right-top-footer {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 80px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 162px;
+        border-left: 1px solid #F1F1F3;
+        gap: 50px;
+
+        .ib-home-prod-cont {
+            display: none;
+        }
+
+        .ib-links {
+            max-width: 12.56vw;
+
+        }
+
+        h3 {
+            padding-bottom: 24px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 130%;
+            letter-spacing: -3%;
+            color: #262626;
+        }
+
+        p {
+            padding-bottom: 18px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            letter-spacing: -3%;
+            color: #656567;
+
+        }
+    }
+
+    .ib-buttom-footer {
+        padding-left: 162px;
+        padding-right: 162px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+
+        .ib-term-priv {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+
+            .ib-p-ter,
+            .ib-p-priv {
+                p {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 130%;
+                    letter-spacing: -3%;
+                    color: #98989A;
+                }
+            }
+
+            .ib-p-ter {
+                padding-right: 24px;
+                border-right: 1px solid #F1F1F3;
+            }
+
+            .ib-p-priv {
+                padding-left: 24px;
+            }
+
+        }
+
+        .ib-big-screen {
+            .ib-applications {
+                display: flex;
+                gap: 21px;
+
+                img {
+                    height: 44px;
+                    width: 44px;
+                }
+            }
+        }
+
+        .ib-klothink {
+            padding-bottom: 10px;
+            padding-top: 10px;
+
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 130%;
+                letter-spacing: -3%;
+                color: #656567;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:1440px) {
+
+    .ib-footer {
+
+        .ib-left-top-footer {
+            padding-left: 80px;
+
+        }
+
+        .ib-logo-hiddenitm {
+            padding-bottom: 24px;
+
+            .ib-shop-logo {
+                padding: 6px;
+                max-width: 60px;
+                margin-right: 295px;
+
+                .ib-shop-logo-img {
+                    max-width: 48px;
+                    max-height: 48px;
+
+                }
+            }
+        }
+
+        .ib-email-sub-btn {
+            .ib_user_email {
+                padding-top: 14px;
+                padding-right: 109px;
+                padding-bottom: 14px;
+                padding-left: 16px;
+                margin-right: 8px;
+                font-size: 14px;
+
+            }
+
+            .ib-subscribe-btn {
+                padding-top: 14px;
+                padding-right: 24px;
+                padding-bottom: 14px;
+                padding-left: 24px;
+                font-size: 14px;
+            }
+        }
+
+        .ib-right-top-footer {
+            display: flex;
+            justify-content: flex-end;
+            padding-left: 60px;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            padding-right: 80px;
+
+            .ib-links {
+                padding-right: 45px;
+            }
+
+
+
+            p {
+                padding-bottom: 14px;
+            }
+        }
+
+        .ib-buttom-footer {
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+
+            .ib-term-priv {
+                padding-top: 10px;
+                padding-bottom: 10px;
+
+                .ib-p-ter,
+                .ib-p-priv {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+
+                .ib-p-ter {
+                    padding-right: 20px;
+                }
+
+                .ib-p-priv {
+                    padding-left: 20px;
+                }
+
+            }
+
+            .ib-big-screen {
+                .ib-applications {
+                    gap: 16px;
+
+                    img {
+                        height: 36px;
+                        width: 36px;
+                    }
+                }
+            }
+
+            .ib-klothink {
+                padding-bottom: 10px;
+                padding-top: 10px;
+
+                p {
+                    font-size: 14px;
+
+                }
+
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+
+    .ib-footer {
+        display: flex;
+        flex-direction: column;
+
+        .ib-top-footer {
+            display: flex;
+            flex-direction: column;
+            border-top: 1px solid #F1F1F3;
+            border-bottom: 0px;
+        }
+
+        .ib-left-top-footer {
+
+            padding-right: 19px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 16px;
+
+        }
+
+        .ib-logo-hiddenitm {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 24px;
+
+            .ib-small-screen {
+                display: flex;
+
+                .ib-applications {
+                    display: flex;
+                    gap: 16px;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+
+                    img {
+                        height: 36px;
+                        width: 36px;
+                    }
+                }
+
+
+            }
+
+
+
+            .ib-shop-logo {
+                padding: 8px;
+                max-width: 50px;
+                margin-right: 0px;
+
+                .ib-shop-logo-img {
+                    max-width: 40px;
+                    max-height: 40px;
+
+                }
+            }
+        }
+
+        .ib-email-sub-btn {
+            display: flex;
+
+            .ib_user_email {
+                width: 59.24vw;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                padding-left: 16px;
+                margin-right: 8px;
+                border: 1px solid #F1F1F3;
+                font-size: 14px;
+
+
+
+            }
+
+            .ib-subscribe-btn {
+                font-size: 14px;
+                width: 29.75vw;
+                padding-top: 14px;
+                padding-right: 24px;
+                padding-bottom: 14px;
+                padding-left: 24px;
+
+            }
+        }
+
+        .ib-right-top-footer {
+            display: flex;
+            justify-content: center;
+            padding-left: 60px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-right: 60px;
+            border-top: 1px solid #F1F1F3;
+            border-left: 0px;
+            margin-left: 16px;
+            margin-right: 16px;
+
+
+            .ib-home-prod-cont {
+                display: flex;
+                gap: 24px;
+
+                h3 {
+                    padding-bottom: 0px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    text-align: center;
+
+                }
+
+
+            }
+
+            .ib-links {
+                display: none;
+            }
+
+            .ib-small-link {
+                display: none;
+            }
+
+
+        }
+
+        .ib-buttom-footer {
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid #F1F1F3;
+
+            .ib-term-priv {
+                padding-top: 0px;
+                padding-bottom: 0px;
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                padding-left: 136px;
+                padding-right: 136px;
+
+                .ib-p-ter,
+                .ib-p-priv {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+
+                .ib-p-ter {
+                    padding-right: 0px;
+                    border-right: 0px;
+                }
+
+                .ib-p-priv {
+                    padding-left: 0px;
+                    padding-bottom: 6px;
+                }
+
+            }
+
+            .ib-big-screen {
+                display: none;
+            }
+
+            .ib-klothink {
+                padding-bottom: 0px;
+                padding-top: 14px;
+
+                p {
+                    font-size: 14px;
+                }
+
+            }
+        }
+    }
+
+
+}
