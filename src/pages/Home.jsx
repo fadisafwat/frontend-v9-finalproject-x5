@@ -10,9 +10,9 @@ const Home = () => {
   return (
     <>
       <Hero/>
-      <Steps/>
       <ExperienceSection />
       <FaqSection/>
+      <Steps/>
     </>
     
   )
