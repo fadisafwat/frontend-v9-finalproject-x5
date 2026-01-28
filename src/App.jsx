@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import Products from './pages/Products'
 import NavBar from './components/NavBar/NavBar'
 // import Hero from './components/Hero'
+import ExperienceSection from './components/Experience/ExperienceSection'
+import FaqSection from './components/FAQ/FaqSection'
 
 function App() {
   const [count, setCount] = useState(0)
