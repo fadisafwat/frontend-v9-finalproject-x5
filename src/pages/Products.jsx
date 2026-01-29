@@ -17,8 +17,10 @@ const Products = () => {
           <ProductOptions />
           <ShippingInfo />
           <ProductFeatures />
-          <FaqSection/>
         </div>
+      </section>
+      <section>
+        <FaqSection/>
       </section>
     </>
   );
