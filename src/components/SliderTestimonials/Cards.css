@@ -1,0 +1,200 @@
+.ib-cont-card {
+    display: flex;
+    width: 83vw;
+    gap: 30px;
+    border-radius: 20px;
+    border-width: 1px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.ib-card {
+    gap: 40px;
+    width: 25.1vw;
+    display: flex;
+    flex-direction: column;
+    background: #F1F1F3;
+    border-radius: 20px;
+    padding: 50px;
+    border: 1px solid #F1F1F3;
+    flex-shrink: 0;
+
+}
+
+.ib-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ib-card-personalinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ib-personalphoto {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.ib-nameandstar {
+    display: flex;
+    flex-direction: column;
+    max-width: 207px;
+
+}
+
+.ib-nameandstar h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+
+.ib-stars {
+    max-width: 100px;
+}
+
+.ib-description {
+    color: #4C4C4D;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.ib-quotes {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+@media screen and (max-width : 1440px) {
+    .ib-cont-card {
+        display: flex;
+        width: 84.89vw;
+        gap: 20px;
+        border-radius: 16px;
+
+    }
+
+    .ib-card {
+        gap: 30px;
+        width: 27.4vw;
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 40px;
+        flex-shrink: 0;
+
+
+
+    }
+
+    .ib-card-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ib-card-personalinfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ib-personalphoto {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .ib-nameandstar {
+        display: flex;
+        flex-direction: column;
+        max-width: 187.33px;
+    }
+
+    .ib-nameandstar h2 {
+        font-size: 16px;
+    }
+
+    .ib-stars {
+        max-width: 82px;
+    }
+
+    .ib-description {
+        font-size: 16px;
+    }
+
+    .ib-quotes {
+        max-width: 40px;
+        max-height: 40px;
+    }
+
+}
+
+@media screen and (max-width : 992px) {
+
+    .ib-cont-card {
+        display: flex;
+        width: 83vw;
+        gap: 20px;
+        border-radius: 16px;
+        transition: all 0.5s ease-in-out;
+        padding-bottom: 80px;
+
+
+    }
+
+    .ib-card {
+        gap: 20px;
+        width: 76vw;
+        display: flex;
+        flex-direction: column;
+        background: #F1F1F3;
+        border: 1px solid #F1F1F3;
+        flex-shrink: 0;
+        border-radius: 16px;
+        padding: 30px;
+
+
+    }
+
+
+
+    .ib-personalphoto {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .ib-nameandstar {
+        display: flex;
+        flex-direction: column;
+        max-width: 128px;
+
+    }
+
+    .ib-nameandstar h2 {
+        font-size: 16px;
+
+    }
+
+    .ib-stars {
+        max-width: 82px;
+    }
+
+    .ib-description {
+        font-weight: 400;
+        font-size: 14px;
+
+    }
+
+    .ib-quotes {
+        max-width: 40px;
+        max-height: 40px;
+    }
+
+}

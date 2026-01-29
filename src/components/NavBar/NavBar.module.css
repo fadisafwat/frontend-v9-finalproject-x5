@@ -1,4 +1,4 @@
-.fsNavbar{
+.fsNavbar {
     height: 95px;
     background-color: white;
     display: flex;
@@ -7,6 +7,7 @@
     padding: 20px 161px;
     border-bottom: 1px solid #F1F1F3;
 }
+
 .fsMenuBtn {
     display: none;
     background: transparent;
@@ -15,19 +16,22 @@
     padding: 0.25rem;
     cursor: pointer;
 }
+
 .fsHamburger {
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
-.fsNavLinks{
+
+.fsNavLinks {
     list-style: none;
     display: flex;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
     gap: 10px;
 }
-.fsNavLinks li a{
+
+.fsNavLinks li a {
     font-weight: 500;
     color: #656567;
     text-decoration: none;
@@ -35,18 +39,22 @@
     border-radius: 100px;
     padding: 14px 24px;
 }
-.fsNavLinks li a:hover{
+
+.fsNavLinks li a:hover {
     color: #646cff;
 }
-.fsActiveLink{
-    background:#F7F7F8;
+
+.fsActiveLink {
+    background: #F7F7F8;
     font-weight: bold;
 }
-.fsNavcart{
+
+.fsNavcart {
     display: flex;
     align-items: center;
-    gap: 14px;  
+    gap: 14px;
 }
+
 .Supportbutton {
     border-radius: 100px;
     border: 1px solid #F1F1F3;
@@ -59,9 +67,11 @@
     background-color: white;
     color: #656567;
 }
+
 .Supportbutton:hover {
     border-color: #646cff;
 }
+
 .Supportbutton:focus,
 .Supportbutton:focus-visible {
     outline: 1px auto -webkit-focus-ring-color;
@@ -72,10 +82,12 @@
     .fsMenuBtn {
         display: inline-block;
     }
-    .fsNavbar{
+
+    .fsNavbar {
         padding: 24px 16px;
     }
-    .fsNavLinks{
+
+    .fsNavLinks {
         position: absolute;
         top: 17%;
         left: 20%;
@@ -90,28 +102,32 @@
         transition: transform 180ms ease-in-out, opacity 180ms ease-in-out;
         opacity: 0;
     }
+
     .fsNavLinks.active {
         transform: scaleY(1);
         opacity: 1;
     }
+
     .fsNavLinks li a {
         display: block;
     }
-    .Supportbutton{
+
+    .Supportbutton {
         display: none;
     }
 }
 
 /* Desktop */
 @media (min-width: 1024px) {
-  .fsMenuBtn {
-    display: none;
-  }
-  .fsNavLinks {
-    position: static;
-    flex-direction: row;
-    transform: none;
-    opacity: 1;
-    pointer-events: auto;
-  }
+    .fsMenuBtn {
+        display: none;
+    }
+
+    .fsNavLinks {
+        position: static;
+        flex-direction: row;
+        transform: none;
+        opacity: 1;
+        pointer-events: auto;
+    }
 }

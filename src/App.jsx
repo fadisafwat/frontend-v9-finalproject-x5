@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Products from './pages/Products'
@@ -7,6 +6,7 @@ import NavBar from './components/NavBar/NavBar'
 // import Hero from './components/Hero'
 import ExperienceSection from './components/Experience/ExperienceSection'
 import FaqSection from './components/FAQ/FaqSection'
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,11 +26,12 @@ function App() {
         items={navItems}
         btn="Contact Support"
       />
-      
+
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/products" element={<Products/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
       </Routes>
+      <Footer />
     </>
   )
 }

@@ -1,28 +1,31 @@
-.rr-H1SPAN{
-  display:flex;
-  size:14px;
+.rr-H1SPAN {
+  display: flex;
+  size: 14px;
   font-family: var(--rr-font-main);
 }
 
-.marginLeftRight{
+.marginLeftRight {
 
-    margin-right:80px;
-    margin-left:80px;}
-p{
-  color:var(--rr-Grey-40);
-  margin: 0px 0px 50px;
-  size:16px;
-  font-family: var(--rr-font-main);
-  
+  margin-right: 80px;
+  margin-left: 80px;
 }
-.rr-PContent{
-  width:96.09069%;
-  margin:20px ;
+
+p {
+  color: var(--rr-Grey-40);
+  /* margin: 0px 0px 50px; */
+  size: 16px;
+  font-family: var(--rr-font-main);
+
+}
+
+.rr-PContent {
+  width: 96.09069%;
+  margin: 20px;
   margin-right: 150px;
-  size:10px;
+  size: 10px;
   font-weight: 400px;
   font-family: var(--rr-font-main);
-  
+
 }
 
 
@@ -31,43 +34,51 @@ p{
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
+
 .rr-step-card {
   background: #fff;
   padding: 20px;
   border-radius: 16px;
 }
+
 .rr-number {
   font-size: 80px;
   color: var(--rr-White-90);
   font-weight: bold;
   font-family: var(--rr-font-main);
-  
+
 }
 
 
 
-.rr-SeamContent p{
+.rr-SeamContent p {
   font-size: 16px;
   font-family: var(--rr-font-main);
   font-weight: var(--rr-regular);
-  color:var(--rr-Grey-40)
+  color: var(--rr-Grey-40)
 }
-.rr-SeamContent{
+
+.rr-SeamContent {
   display: flex;
   gap: 7px;
 }
 
 @media (max-width: 390px) {
-  .rr-steps-grid { grid-template-columns: 1fr; }
-    .rr-H1SPAN{
-    display:flex;
+  .rr-steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rr-H1SPAN {
+    display: flex;
     flex-direction: column;
-    gap:7px;
+    gap: 7px;
   }
-  .rr-H1{
-  order:2;
+
+  .rr-H1 {
+    order: 2;
   }
-  .rr-SPAN{
-    order:1;
+
+  .rr-SPAN {
+    order: 1;
   }
 }
