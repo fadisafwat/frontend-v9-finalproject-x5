@@ -1,17 +1,13 @@
-/* --- استيراد الخطوط الخارجية --- */
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Manrope:wght@200..800&family=Special+Gothic+Expanded+One&display=swap');
 
 :root {
   font-family: "Gilda Display", serif;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-      /* الخطوط والأوزان المستخدمة */
-/* --- تعريف متغيرات الألوان والأوزان --- */
     --rr-font-main: 'Manrope', sans-serif;
     --rr-font-display: 'Gilda Display', serif;
     --rr-font-special: 'Special Gothic Expanded One', sans-serif;
@@ -52,7 +48,8 @@
     box-sizing: border-box;
 }
 
-.marginLeftRight{
+
+.rr-marginLeftRight{
     margin-right:80px;
     margin-left:80px;
   }
@@ -60,7 +57,7 @@
 h1,h2,h3 {
     font-family: var(--rr-font-main);
     font-weight: var(--rr-bold);
-}
+} 
 
 body {
   min-height: 100vh;
@@ -82,6 +79,8 @@ button {
 }
 .rr-primary {
    background: var(--rr-Yellow-50);
+   
+   
    }
 .rr-secondary { 
   background: var(--rr-White-95); 
@@ -91,7 +90,8 @@ button {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #ffffff; 
+    
   }
   a:hover {
     color: #212bee;

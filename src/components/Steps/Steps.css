@@ -4,11 +4,11 @@
   font-family: var(--rr-font-main);
 }
 
-.marginLeftRight{
+.rr-marginLeftRight{
 
     margin-right:80px;
     margin-left:80px;}
-p{
+.rr-p{
   color:var(--rr-Grey-40);
   margin: 0px 0px 50px;
   size:16px;
@@ -17,7 +17,7 @@ p{
 }
 .rr-PContent{
   width:96.09069%;
-  margin:20px ;
+  /* margin:20px ; */
   margin-right: 150px;
   size:10px;
   font-weight: 400px;
@@ -56,8 +56,11 @@ p{
   display: flex;
   gap: 7px;
 }
-
-@media (max-width: 390px) {
+@media (max-width: 990px) {
+  .rr-steps{
+    margin-left: 17px;
+    margin-right: 17px;
+  }
   .rr-steps-grid { grid-template-columns: 1fr; }
     .rr-H1SPAN{
     display:flex;
@@ -70,4 +73,5 @@ p{
   .rr-SPAN{
     order:1;
   }
+  
 }

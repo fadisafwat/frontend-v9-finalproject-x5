@@ -12,7 +12,7 @@ export default function Steps() {
   ]
 
   return (
-    <section className="rr-steps marginLeftRight">
+    <section className="rr-steps rr-marginLeftRight">
       <div className="rr-H1SPAN">
       
         <h1  className="rr-SeamContent rr-H1" >SEAMLESS EXPERIENCE.</h1>

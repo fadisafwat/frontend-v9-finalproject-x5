@@ -3,15 +3,16 @@ import ProductInfo from "../components/Product/ProductInfo";
 import ProductOptions from "../components/Product/ProductOptions";
 import ShippingInfo from "../components/Product/ShippingInfo";
 import ProductFeatures from "../components/Product/ProductFeatures";
-import "../Product/product"
+import "../components/Product/product.css";
 
 
 const Products = () => {
   return (
     <>
-      <section className="rr-product marginLeftRight">
+      {/* <section className="rr-product marginLeftRight"> */}
+      <section className="rr-product ">
         <ProductGallery />
-        <div className="right">
+        <div className="rr-right">
           <ProductInfo />
           <ProductOptions />
           <ShippingInfo />
