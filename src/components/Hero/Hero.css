@@ -1,7 +1,4 @@
 /* FINALLY */
-
-
-
 .rr-hero {
   display: flex;
 }
@@ -11,10 +8,9 @@
   
  
 }
-
-.rr-marginLeftRight{
-
-    margin:100px 80px 200px 80px;}
+/* .rr-marginLeftRight{
+    margin:100px 80px 200px 80px;
+  } */
 
 .rr-hero-text {
   margin-top: 100px;

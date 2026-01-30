@@ -51,8 +51,8 @@
 
 
 .rr-marginLeftRight {
-  margin-right: 80px;
-  margin-left: 80px;
+  margin-right: 161px;
+  margin-left: 161px;
 }
 
 h1,h2,h3 {
@@ -62,14 +62,11 @@ h1,h2,h3 {
 
 body {
   min-height: 100vh;
-  margin: 0;
   font-family: var(--rr-font-main);
   background: #f9f9f9;
   font-family: var(--rr-font-main);
   background-color: var(--rr-White-99);
   color: var(--rr-Grey-10);
-  margin: 0;
-  padding: 0;
 }
 
 button {
