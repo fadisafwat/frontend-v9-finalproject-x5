@@ -1,7 +1,7 @@
 
 const ProductFeatures = () => {
   return (
-    <div className="features">
+    <div className="rr-features rr-border">
       <h4 className="rr-h4">Features</h4>
       <ul >
         <li className="rr-p-new">Distressed detailing for a rugged look</li>

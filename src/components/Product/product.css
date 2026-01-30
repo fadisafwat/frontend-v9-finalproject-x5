@@ -1,0 +1,324 @@
+
+.rr-h4{
+  margin-bottom: 4px;
+}
+.h1withprice{
+  display: flex;
+  flex-direction: column;
+  
+}
+.rr-options{
+  
+  display: flex;
+  /* new6 */
+  /* justify-content: center; */
+  align-items: center;
+  /* new6 */
+  gap:16px;
+
+}
+
+
+.rr-shipping{
+  margin: 16px 0px ;
+  color:var(--rr-Grey-15);
+  font-weight: bold;
+}
+.rr-p-new{
+  
+  color:var(--rr-Grey-40);
+  margin-left: 16px;
+
+}
+.yellowbtn{
+  background-color: var(--rr-Yellow-70);
+  color:var(--rr-Grey-15);
+  margin-left: 6px;
+  height: 40px;
+  text-align: center;
+  
+}
+.rr-sizes button{
+  
+  display: flex;
+
+}
+.rr-product {
+  display: flex;
+  gap: 40px;
+  padding: 10px;
+  margin-top: 40px;
+  /* max-width: 1200px; */
+  margin: auto;
+}
+.rr-gallery {
+  flex: 1;
+}
+.rr-main {
+  /* width: 40vw; */
+  border-radius: 24px;
+}
+.rr-thumbs {
+  display: flex;
+  gap: 2px;
+  margin-top: 12px;
+}
+.rr-thumbs img {
+  width: 70px;
+  border-radius: 12px;
+}
+.rr-right {
+  flex: 1;
+}
+.rr-tag {
+  color: gray;
+  font-size: 14px;
+  height: 40px;
+}
+.rr-price1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--rr-Grey-15);
+  align-items: center;
+  padding-bottom: 50px;
+}
+.rr-buttons {
+  display: flex;
+  gap: 12px;
+
+  /*R margin: 20px 0; */
+  width: 45%;
+  height: 63px;
+
+}
+
+.rr-p{
+  margin-bottom: 16px;
+  
+}
+.rr-cart {
+  border: 1px solid #ddd;
+  padding: 12px 10px;
+  border-radius: 30px;
+  size:14px;
+  
+}
+.rr-buy {
+  background: black;
+  color: white;
+  padding: 12px 10px;
+  border-radius: 30px;
+  size:14px;
+  
+}
+.rr-colors {
+  display: flex;
+  gap: 10px;
+}
+.rr-c {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.rr-black { background: black; }
+.rr-brown { background: #b58b5a; }
+.rr-beige { background: #f2e2b8; }
+
+.rr-desktop{
+  display: flex;
+  width: 40vw;
+  
+}
+.rr-border{
+  border:solid 1px var( --rr-White-95);
+}
+.rr-mobile{
+  display: none;
+}
+.rr-active{
+  height: 33px;
+  background-color: var( --rr-Grey-15);
+  color: #FFFFFF;
+  text-align: center;
+  padding-left:18px;
+}
+
+.rr-actions {
+    display: flex;
+    font-family: var(--rr-font-main);
+    gap: 12px; 
+    margin: 20px 0; 
+  }
+.pshipping{
+  margin-bottom: 10px !important;
+}
+.rr-price1{
+  font-size:24px;
+  color:var(--rr-Grey-15)
+}
+.rr-sizes{
+  
+ 
+  font-size: 5px;
+  display: flex;
+}
+.rr-section{
+  display: flex;
+ 
+
+}
+.rr-action{
+  width:50%!important;
+  
+} 
+
+.rr-buttons{
+  display: flex;
+}
+
+
+.rr-h1{
+  font-size: 20px;
+  width:350px;
+}
+.rr-Smlxl{
+  width:34px;
+  height: 34px; 
+  border-radius: 4px;
+ 
+}
+@media (max-width:992px) {
+  .rr-section{  
+  display: flex;
+  flex-direction: column;
+          }
+  
+  .rr-product {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .rr-options{
+    width:50vw;
+  }
+  
+  .rr-desktop{
+  display: none;
+}
+  .rr-mobile{
+  display: flex;
+  width:100%;
+}
+  .rr-h1mobile{
+  font-size:16px
+}
+  .h1withprice{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  font-size: 18px;
+  size: 70vw;
+  margin-right: 6px;
+}
+/* new7 */
+.rr-options-Left,.rr-options-Right{
+  flex-grow: 2; 
+  
+}
+.rr-buttons{
+  display: flex;
+  width:15vw;
+
+}
+
+.rr-actions 
+  { 
+    display:flex;
+    justify-content: center;
+     gap: 10px;
+    
+  }
+  .rr-p{
+  margin-bottom: 16px;
+  max-width:156px;
+  font-size: 14px;
+}
+.rr-price1{
+  margin-top: 50px !important;
+  margin-left: 6px;
+  color:var(--rr-Grey-15);
+}
+
+
+.rr-size-width{
+  border-radius: 4px;
+  width:30px;
+  height: 30px;
+  padding: 12px 2px;
+}
+.rr-sizes button{
+  width: 20px;
+  height: auto;
+  padding: 15px;
+  size:5px;
+  font-size: 10px;
+  align-items:center ;
+  display: flex;
+  flex-direction: row;
+  width:40px;
+}
+
+.rr-options-Left,.rr-options-Right{
+  flex-grow: 3;
+}
+.rr-info{
+  flex-grow: 1 !important;
+  font-size:18px;
+}
+.rr-buttons{
+  display:flex;
+  justify-content: space-between;  
+  width:80vw !important;
+  flex-grow: 4;
+  font-size:18px;
+  padding-bottom: 16px;
+  gap: 10px;
+}
+
+.rr-right {
+  flex: 0;
+}
+
+}
+@media (max-width:1440px){
+  .rr-buttons{
+    width:20vw;
+}
+.rr-product{
+  margin-top: 80px;
+}
+
+
+}
+
+@media (min-width:1920px) {
+  .rr-product{
+  margin: auto;
+  font-size: 18px;
+  line-height: 150%;
+}
+  .rr-buttons{
+    width: 14vw;
+  }
+  .rr-p-new{
+    padding-bottom: 14px;
+  }
+  .rr-options-Left{
+    padding-right: 20px;
+  }
+  .rr-product{
+  margin-top: 117px;
+}
+
+}
+
