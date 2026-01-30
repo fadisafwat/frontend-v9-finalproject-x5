@@ -24,7 +24,7 @@
 
             .ib-small-text {
                 padding-left: 21px;
-                max-width: 128px;
+                max-width: 200px;
                 height: 25px;
                 color: #98989A;
                 font-weight: 600;
@@ -77,7 +77,7 @@
 
                 .ib-small-text {
                     padding-left: 14px;
-                    max-width: 99px;
+                    max-width: 195px;
                     height: 19px;
                 }
             }
@@ -123,7 +123,7 @@
 
                 .ib-small-text {
                     padding-left: 0px;
-                    max-width: 99px;
+                    max-width: 195px;
                     height: 19px;
                     font-size: 14px;
                 }

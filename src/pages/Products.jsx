@@ -5,6 +5,8 @@ import ShippingInfo from "../components/Product/ShippingInfo";
 import ProductFeatures from "../components/Product/ProductFeatures";
 import FaqSection from "../components/FAQ/FaqSection";
 import "./product.css";
+import SliderTestimonials from "../components/SliderTestimonials/SliderTestimonials";
+import ProductReviews from "../components/CustomersLove/ProductReviews";
 
 
 const Products = () => {
@@ -18,6 +20,10 @@ const Products = () => {
           <ShippingInfo />
           <ProductFeatures />
         </div>
+      </section>
+      <section>
+        <ProductReviews />
+        <SliderTestimonials />
       </section>
       <section>
         <FaqSection/>

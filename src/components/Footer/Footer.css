@@ -1,21 +1,25 @@
 .ib-footer {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 150px;
 
     .ib-top-footer {
         display: flex;
         border-width: 1px 0px 1px 0px;
         border-style: solid;
         border-color: #F1F1F3;
+        padding-left: 162px;
+        padding-right: 162px;
+
+
     }
 
     .ib-left-top-footer {
         padding-right: 80px;
         padding-top: 80px;
         padding-bottom: 80px;
-        padding-left: 162px;
         margin: 0px;
+        width: 29.17vw;
     }
 
     .ib-logo-hiddenitm {
@@ -47,6 +51,7 @@
         .ib_user_email {
             padding-top: 16px;
             padding-bottom: 16px;
+            width: 16.82vw;
             padding-left: 20px;
             margin-right: 10px;
             border-radius: 32px;
@@ -78,11 +83,10 @@
 
     .ib-right-top-footer {
         display: flex;
-        justify-content: flex-start;
-        padding-left: 80px;
-        padding-top: 80px;
-        padding-bottom: 80px;
-        padding-right: 162px;
+        justify-content: flex-end;
+        justify-content: space-between;
+        padding: 80px 0px 80px 80px;
+        width: 54vw;
         border-left: 1px solid #F1F1F3;
         gap: 50px;
 
@@ -91,9 +95,14 @@
         }
 
         .ib-links {
-            max-width: 12.56vw;
+            width: 12.55vw;
 
         }
+
+        .ib-small-link {
+            width: 4.22vw;
+        }
+
 
         h3 {
             padding-bottom: 24px;
@@ -181,10 +190,26 @@
 @media screen and (max-width:1440px) {
 
     .ib-footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+
+        .ib-top-footer {
+            display: flex;
+            width: 100vw;
+            padding-left: 80px;
+            padding-right: 80px;
+
+
+        }
+
 
         .ib-left-top-footer {
-            padding-left: 80px;
-
+            padding-right: 80px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            margin: 0px;
+            width: 30.21;
         }
 
         .ib-logo-hiddenitm {
@@ -193,7 +218,6 @@
             .ib-shop-logo {
                 padding: 6px;
                 max-width: 60px;
-                margin-right: 295px;
 
                 .ib-shop-logo-img {
                     max-width: 48px;
@@ -206,11 +230,11 @@
         .ib-email-sub-btn {
             .ib_user_email {
                 padding-top: 14px;
-                padding-right: 109px;
                 padding-bottom: 14px;
                 padding-left: 16px;
                 margin-right: 8px;
                 font-size: 14px;
+                width: 16.042vw;
 
             }
 
@@ -226,16 +250,18 @@
         .ib-right-top-footer {
             display: flex;
             justify-content: flex-end;
-            padding-left: 60px;
-            padding-top: 60px;
-            padding-bottom: 60px;
-            padding-right: 80px;
+            justify-content: space-between;
+            padding: 60px 0px 60px 60px;
+            width: 59.5vw;
+            gap: 40px;
 
             .ib-links {
-                padding-right: 45px;
+                width: 13.565vw;
             }
 
-
+            .ib-small-link {
+                width: 6.07vw;
+            }
 
             p {
                 padding-bottom: 14px;
@@ -295,26 +321,38 @@
 
 }
 
+
 @media screen and (max-width:992px) {
 
 
     .ib-footer {
         display: flex;
         flex-direction: column;
+        margin-top: 80px;
 
         .ib-top-footer {
             display: flex;
             flex-direction: column;
             border-top: 1px solid #F1F1F3;
             border-bottom: 0px;
+            padding-right: 19px;
+            padding-left: 19px;
+            padding-top: 30px;
+            padding-bottom: 0px;
+            margin: 0px;
+            width: 100vw;
         }
 
         .ib-left-top-footer {
 
-            padding-right: 19px;
-            padding-top: 30px;
+            padding-right: 0px;
+            padding-top: 0px;
             padding-bottom: 30px;
-            padding-left: 16px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            margin: 0px;
+            width: 91.03vw;
 
         }
 
@@ -322,6 +360,7 @@
             display: flex;
             justify-content: space-between;
             padding-bottom: 24px;
+            width: 91.03vw;
 
             .ib-small-screen {
                 display: flex;
@@ -346,6 +385,7 @@
             .ib-shop-logo {
                 padding: 8px;
                 max-width: 50px;
+                max-height: 50px;
                 margin-right: 0px;
 
                 .ib-shop-logo-img {
@@ -358,13 +398,13 @@
 
         .ib-email-sub-btn {
             display: flex;
+            justify-content: flex-start;
 
             .ib_user_email {
-                width: 59.24vw;
+                width: 59.231vw;
                 padding-top: 14px;
                 padding-bottom: 14px;
                 padding-left: 16px;
-                margin-right: 8px;
                 border: 1px solid #F1F1F3;
                 font-size: 14px;
 
@@ -374,7 +414,7 @@
 
             .ib-subscribe-btn {
                 font-size: 14px;
-                width: 29.75vw;
+                width: 29.744vw;
                 padding-top: 14px;
                 padding-right: 24px;
                 padding-bottom: 14px;
@@ -394,6 +434,8 @@
             border-left: 0px;
             margin-left: 16px;
             margin-right: 16px;
+            width: 83.6vw;
+            gap: 0px;
 
 
             .ib-home-prod-cont {
@@ -439,8 +481,7 @@
                 display: flex;
                 flex-direction: column-reverse;
                 align-items: center;
-                padding-left: 136px;
-                padding-right: 136px;
+                justify-content: center;
 
                 .ib-p-ter,
                 .ib-p-priv {
