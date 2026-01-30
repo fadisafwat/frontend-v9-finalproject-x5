@@ -1,0 +1,181 @@
+.ib-testimonial-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F7F7F8;
+    border-radius: 20px;
+    border: 1px solid #F7F7F8;
+    padding: 30px;
+    margin-left: 162px;
+    margin-right: 162px;
+
+}
+
+.ib-testimonial-container {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+.ib-pre-btn,
+.ib-next-btn {
+    border-radius: 50%;
+    border: none;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #B3B3B3;
+    cursor: pointer;
+
+}
+
+.ib-pre-btn img,
+.ib-next-btn img {
+    height: 15px;
+    background-color: white;
+    color: #656567;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+.ib-pre-btn {
+    left: -35px;
+}
+
+.ib-next-btn {
+    right: -35px;
+}
+
+.ib-next-btn:hover,
+.ib-pre-btn:hover {
+    background-color: #262626;
+    color: white;
+
+    img {
+        background-color: #262626;
+    }
+}
+
+@media screen and (max-width :1440px) {
+    .ib-testimonial-slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 16px;
+        padding: 24px;
+        margin-left: 80px;
+        margin-right: 80px;
+
+    }
+
+    .ib-testimonial-container {
+        display: flex;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+
+    }
+
+    .ib-pre-btn,
+    .ib-next-btn {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    .ib-pre-btn img,
+    .ib-next-btn img {
+        height: 12px;
+    }
+
+    .ib-pre-btn {
+        left: -35px;
+    }
+
+    .ib-next-btn {
+        right: -35px;
+    }
+
+}
+
+@media screen and (max-width :992px) {
+    .ib-testimonial-slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: #F7F7F8;
+        border-radius: 20px;
+        border: 1px solid #F7F7F8;
+        padding: 30px;
+        margin-left: 16px;
+        margin-right: 16px;
+
+
+    }
+
+    .ib-testimonial-container {
+        display: flex;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+
+    }
+
+    .ib-pre-btn,
+    .ib-next-btn {
+        border-radius: 50%;
+        border: none;
+        width: 58px;
+        height: 58px;
+        position: absolute;
+        top: 293px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #B3B3B3;
+        cursor: pointer;
+
+    }
+
+    .ib-pre-btn img,
+    .ib-next-btn img {
+        height: 15px;
+        background-color: white;
+        color: #656567;
+        cursor: pointer;
+        border-radius: 50%;
+
+    }
+
+    .ib-pre-btn {
+        left: 113px;
+    }
+
+    .ib-next-btn {
+        right: 113px;
+    }
+
+    .ib-next-btn:hover,
+    .ib-pre-btn:hover {
+        background-color: #262626;
+        color: white;
+
+        img {
+            background-color: #262626;
+        }
+    }
+
+}

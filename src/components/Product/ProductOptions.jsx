@@ -14,10 +14,16 @@ const ProductOptions = () => {
           <span className="rr-c rr-brown"></span>
           <span className="rr-c rr-beige"></span>
         </div>
+
      </div>
       {/* new5 اسم الكلاس */}
       <div  className="rr-options-Right ">
         {/* new5 اسم الكلاس */}
+
+      </div>
+
+      <div>
+
         <h4 className="rr-h4">Fit</h4>
         <p className="rr-p">Classic Fit</p>
         <h4 className="rr-h4">Sizes</h4>
@@ -27,8 +33,8 @@ const ProductOptions = () => {
           <button className="rr-Smlxl" >L</button>
           <button className="rr-Smlxl" >XL</button>
         </div>
+      </div>
     </div>
-  </div>
   );
 };
 

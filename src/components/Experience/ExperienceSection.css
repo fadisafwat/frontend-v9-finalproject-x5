@@ -1,0 +1,223 @@
+.gd-container{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.gd-experience {
+    margin: auto;
+    margin-top: 200px;
+}
+
+.gd-about {
+    font-size: 18px;
+    color: var(--rr-Grey-60);
+    margin-bottom: 25px;
+}
+
+.gd-title {
+    font-size: 48px;
+    margin: 36px 0;
+}
+
+.gd-description {
+    color: var(--rr-Grey-40);
+    max-width: 1247px; 
+    margin-bottom: 80px;
+    text-align: left;
+
+
+}
+
+.gd-cards {
+    display: grid;
+    gap: 30px;
+}
+
+.gd-feature-card {
+    width: 100%;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid var(--rr-White-95);
+    border-radius: 20px;
+    padding: 20px;
+            text-align: left;
+
+}
+
+.gd-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.gd-feature-card .header{
+    display: flex;
+    align-items: center; 
+    gap: 16px; 
+    margin-bottom: 24px;
+}
+
+.gd-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gd-feature-card h3 {
+    margin-bottom: 8px;
+}
+
+.gd-feature-card p {
+    font-size: 16px;
+    color: var(--rr-Grey-40);
+}
+
+.gd-view-btn {
+    margin: 24px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;         
+    background: none;
+    border: none;
+}
+
+.gd-view-btn .icon {
+    width: 11px;         
+    height: 11px;}
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .gd-cards {
+        grid-template-columns: 1fr;
+    }
+    .gd-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .gd-experience {
+        padding: 0;        
+        margin: 0 0 40px 0;          
+    }
+
+    .gd-feature-card {
+        width: 100%;
+        padding: 16px;    
+        margin: 0 0 20px 0; 
+        box-sizing: border-box;
+                text-align: left;
+
+    }
+
+    .gd-feature-card p {
+        margin: 0;       
+        width: 100%;
+        text-align: left;
+
+    }
+
+    .gd-description {
+        padding: 0;     
+        margin-bottom: 40px;        
+        width: 100%;
+        text-align: left;
+    }
+    
+    .gd-header {
+        flex-direction:column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .gd-about{
+        margin-bottom: 0;
+        font-size: 14px;
+        order: 1;
+    }
+    .gd-title{
+        margin-bottom: 16px;
+        margin-top: 0;
+        font-size: 28px;
+        text-align: left;
+        order: 2;
+    }
+
+}
+
+
+@media (min-width: 1440px) {
+    .gd-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+/*Animations*/
+
+.gd-experience {
+    animation: expFadeUp 0.8s ease-out forwards;
+}
+@keyframes expFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* الكروت تطلع وحدة وحدة*/
+.gd-feature-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: cardFadeUp 0.6s ease-out forwards;
+}
+.gd-feature-card:nth-child(1) { animation-delay: 0.1s; }
+.gd-feature-card:nth-child(2) { animation-delay: 0.2s; }
+.gd-feature-card:nth-child(3) { animation-delay: 0.3s; }
+.gd-feature-card:nth-child(4) { animation-delay: 0.4s; }
+.gd-feature-card:nth-child(5) { animation-delay: 0.5s; }
+.gd-feature-card:nth-child(6) { animation-delay: 0.6s; }
+@keyframes cardFadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.gd-feature-card {
+    transition:  0.3s ease,  0.3s ease;
+}
+
+.gd-feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.gd-view-btn {
+    transition: 0.25s ease,  0.25s ease;
+    cursor: pointer;
+
+}
+
+.gd-view-btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    opacity: 0.85;
+}
+
+.gd-view-btn:active {
+    transform: scale(0.95);
+}
+
+.gd-view-btn .icon {
+    transition:0.3s ease;
+}
+.gd-view-btn:hover .icon {
+    transform: translateY(3px);
+}
+

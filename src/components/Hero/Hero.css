@@ -1,10 +1,9 @@
 /* FINALLY */
+
+
+
 .rr-hero {
   display: flex;
-  
-  
-  /*margin-left: var(--rr-margin-left);
-  margin-right: var(--rr-margin-right);*/
 }
 .IconHero{
   width:24px;
@@ -15,7 +14,7 @@
 
 .rr-marginLeftRight{
 
-    margin:0px 80px 0px 80px;}
+    margin:100px 80px 200px 80px;}
 
 .rr-hero-text {
   margin-top: 100px;

@@ -197,6 +197,10 @@
     flex-direction: column;
     padding: 16px;
   }
+  .rr-options{
+    width:50vw;
+  }
+  
   .rr-desktop{
   display: none;
 }
@@ -218,7 +222,7 @@
 }
 /* new7 */
 .rr-options-Left,.rr-options-Right{
-  flex-grow: 3; 
+  flex-grow: 2; 
   
 }
 .rr-buttons{
