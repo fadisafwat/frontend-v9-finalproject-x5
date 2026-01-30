@@ -3,9 +3,6 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Products from './pages/Products'
 import NavBar from './components/NavBar/NavBar'
-// import Hero from './components/Hero'
-import ExperienceSection from './components/Experience/ExperienceSection'
-import FaqSection from './components/FAQ/FaqSection'
 import Footer from './components/Footer/Footer';
 
 function App() {

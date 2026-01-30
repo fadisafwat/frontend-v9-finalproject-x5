@@ -83,18 +83,3 @@ const NavBar = (items, btn) => {
 }
 
 export default NavBar
-
-
-//use List Rendering with for nav items.
-//<li><NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>
-//<li><NavLink to="/products" className={({ isActive }) => isActive ? "active" : ""}>Products</NavLink></li>
-
-/*put icon inside nav item:
-use font-awesome cdn -> put the link in index.html head section & javascript.
-use vpn to search for icons.
-<li><NavLink><i className={items.icon}></i> Home</NavLink></li>
-npm i font-awesome ==> there is a better package called react-icons have font-awesom and more
-https://react-icons.github.io/react-icons/
-
-
-*/

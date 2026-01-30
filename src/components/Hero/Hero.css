@@ -29,8 +29,6 @@
   margin-bottom: 24px;
   font-size: clamp(38px, 2.8vw, 48px);
   max-width: 652px;
-
-
 }
 
 .rr-label {
@@ -38,10 +36,6 @@
   width: 250px;
   color: var(--rr-Grey-60);
   font-family: var(--rr-font-main);
-
-
-
-
 }
 
 .rr-actions {

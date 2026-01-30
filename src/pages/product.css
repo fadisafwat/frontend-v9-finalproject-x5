@@ -4,7 +4,6 @@
 .rr-options{
   display: flex;
   gap:16px;
-
 }
 .rr-shipping{
   margin: 16px 0px ;
@@ -61,6 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 .rr-buy {
   background: black;
