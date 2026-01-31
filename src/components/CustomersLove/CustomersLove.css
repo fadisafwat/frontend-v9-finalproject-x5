@@ -1,9 +1,7 @@
 .ib-customers-love {
-    padding: 150px 0px 60px;
+    padding-bottom: 60px;
     display: flex;
     justify-content: space-between;
-    margin-left: 162px;
-    margin-right: 162px;
 
     .ib-container-items {
         max-width: 900px;
@@ -57,11 +55,44 @@
 
 }
 
-@media screen and (max-width : 1440px) {
+@media screen and (max-width: 767px) {
     .ib-customers-love {
-        margin-left: 80px;
-        margin-right: 80px;
+        padding: 83px 0 40px;
+        display: flex;
+        flex-direction: column;
 
+        .ib-container-items {
+            .ib-title-container {
+                display: flex;
+                flex-direction: column-reverse;
+
+                .h1 {
+                    max-width: 358px;
+                    font-size: 28px;
+                }
+
+                .ib-small-text {
+                    padding-left: 0px;
+                    max-width: 195px;
+                    height: 19px;
+                    font-size: 14px;
+                }
+            }
+
+            .ib-description {
+                padding-top: 16px;
+                font-size: 14px;
+            }
+        }
+
+        .ib-view-all-button {
+            margin-top: 24px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width : 1440px) {
+    .ib-customers-love {
         .ib-container-items {
             gap: 20px;
 
@@ -100,43 +131,4 @@
         }
     }
 
-}
-
-
-@media screen and (max-width: 992px) {
-    .ib-customers-love {
-        padding: 150px 16px 60px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 16px;
-        margin-right: 16px;
-
-        .ib-container-items {
-            .ib-title-container {
-                display: flex;
-                flex-direction: column-reverse;
-
-                .h1 {
-                    max-width: 358px;
-                    font-size: 28px;
-                }
-
-                .ib-small-text {
-                    padding-left: 0px;
-                    max-width: 195px;
-                    height: 19px;
-                    font-size: 14px;
-                }
-            }
-
-            .ib-description {
-                padding-top: 16px;
-                font-size: 14px;
-            }
-        }
-
-        .ib-view-all-button {
-            margin-top: 24px;
-        }
-    }
 }

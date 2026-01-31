@@ -4,7 +4,6 @@ import Steps from "../components/Steps/Steps"
 import ExperienceSection from "../components/Experience/ExperienceSection"
 import FaqSection from "../components/FAQ/FaqSection";
 import Customerlove from '../components/CustomersLove/CustomersLove';
-import SliderTestimonials from '../components/SliderTestimonials/SliderTestimonials';
 
 
 const Home = () => {
@@ -13,12 +12,9 @@ const Home = () => {
       <Hero />
       <ExperienceSection />
       <Customerlove />
-      <SliderTestimonials />
       <FaqSection />
       <Steps />
-
     </>
-
   )
 }
 

@@ -1,12 +1,7 @@
-.gd-container{
+/* .gd-container{
     margin-left: 80px;
     margin-right: 80px;
-}
-
-.gd-experience {
-    margin: auto;
-    margin-top: 200px;
-}
+} */
 
 .gd-about {
     font-size: 18px;
@@ -85,24 +80,17 @@
 
 .gd-view-btn .icon {
     width: 11px;         
-    height: 11px;}
+    height: 11px;
+}
 
-
-
-
-
-
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .gd-cards {
         grid-template-columns: 1fr;
+        gap: 20px !important;
     }
-    .gd-container{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+
     .gd-experience {
         padding: 0;        
-        margin: 0 0 40px 0;          
     }
 
     .gd-feature-card {
@@ -110,15 +98,13 @@
         padding: 16px;    
         margin: 0 0 20px 0; 
         box-sizing: border-box;
-                text-align: left;
-
+        text-align: left;
     }
 
     .gd-feature-card p {
         margin: 0;       
         width: 100%;
         text-align: left;
-
     }
 
     .gd-description {
@@ -148,12 +134,14 @@
 
 }
 
+@media (min-width: 768px) and (max-width: 1440px) {
 
-@media (min-width: 1440px) {
+}
+
+@media (min-width: 1441px) {
     .gd-cards {
         grid-template-columns: repeat(3, 1fr);
     }
-    
 }
 
 /*Animations*/

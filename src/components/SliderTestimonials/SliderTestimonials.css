@@ -7,9 +7,6 @@
     border-radius: 20px;
     border: 1px solid #F7F7F8;
     padding: 30px;
-    margin-left: 162px;
-    margin-right: 162px;
-
 }
 
 .ib-testimonial-container {
@@ -63,7 +60,7 @@
     }
 }
 
-@media screen and (max-width :1440px) {
+@media (min-width: 768px) and (max-width :1440px) {
     .ib-testimonial-slider {
         display: flex;
         justify-content: center;
@@ -71,9 +68,6 @@
         position: relative;
         border-radius: 16px;
         padding: 24px;
-        margin-left: 80px;
-        margin-right: 80px;
-
     }
 
     .ib-testimonial-container {
@@ -111,7 +105,7 @@
 
 }
 
-@media screen and (max-width :992px) {
+@media screen and (max-width :767px) {
     .ib-testimonial-slider {
         display: flex;
         justify-content: center;
@@ -121,10 +115,6 @@
         border-radius: 20px;
         border: 1px solid #F7F7F8;
         padding: 30px;
-        margin-left: 16px;
-        margin-right: 16px;
-
-
     }
 
     .ib-testimonial-container {

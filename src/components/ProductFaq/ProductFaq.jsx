@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./FaqSection.css";
+import "./ProductFaq.css";
 
 
 const plusIcon ="/assets/img/plus.png";
@@ -83,25 +83,25 @@ function FaqSection() {
     };
 
     return (
-        <section className="gd-faq rr-marginLeftRight">
-            <div className="gd-containerr">
-            <div className="gd-faq-header">
-                <div className="gd-faq-title-row">
-                <h2 className="gd-faq-title">Questions? We Have Answers.</h2>
-                <span className="gd-faq-small">FAQ</span>
+        <section className="fs-faq">
+            <div className="fs-containerr">
+            <div className="fs-faq-header">
+                <div className="fs-faq-title-row">
+                <h2 className="fs-faq-title">FREQUENTLY ASKED QUESTIONS</h2>
+                <span className="fs-faq-small">FAQ</span>
                 </div>
-                <p className="gd-faq-description">
+                <p className="fs-faq-description">
                     Ease into the world of Klothink with clarity. Our FAQs cover a spectrum of topics, ensuring you have the information you need for a seamless shopping experience.
                 </p>
                             
-                <button className="gd-faq-viewall"  onClick={() => setShowAllMobile(!showAllMobile)}>
+                <button className="fs-faq-viewall"  onClick={() => setShowAllMobile(!showAllMobile)}>
                             {showAllMobile ? " View Less FAQ’s" : "View All FAQ’s"} </button>
             </div>
             
             
 
 
-            <div className="gd-faq-tabs">
+            <div className="fs-faq-tabs">
                 {["All", "Ordering", "Shipping", "Returns", "Customer Support"].map(tab => (
                     <button
                         key={tab}
@@ -117,11 +117,11 @@ function FaqSection() {
             </div>
             
 
-            <div className={`gd-faq-list ${showAllMobile ? "show-all" :""}`}>
+            <div className={`fs-faq-list ${showAllMobile ? "show-all" :""}`}>
                 {filteredFaqs.map((item, index) => (
-                    <div className="gd-faq-item" key={index}>
+                    <div className="fs-faq-item" key={index}>
                         <div
-                            className="gd-faq-question"
+                            className="fs-faq-question"
                             onClick={() => toggleItem(index)}>
                         
                             <h4>{item.question}</h4>
@@ -133,7 +133,7 @@ function FaqSection() {
                         
 
                         {activeIndex === index && (
-                            <p className="gd-faq-answer">{item.answer}</p>
+                            <p className="fs-faq-answer">{item.answer}</p>
                         )}
                     </div>
                 ))}

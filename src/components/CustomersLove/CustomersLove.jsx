@@ -1,8 +1,10 @@
+import SliderTestimonials from '../SliderTestimonials/SliderTestimonials'
 import './CustomersLove.css'
 import ViewAllButton from './ViewAllButton'
 const CustomersLove = () => {
     return (
-        <div className="ib-customers-love">
+        <section id="customers-love" className='rr-marginLeftRight'>
+            <div className="ib-customers-love">
             <div className="ib-container-items">
                 <div className="ib-title-container">
                     <h1>CUSTOMERS LOVE.</h1>
@@ -14,6 +16,11 @@ const CustomersLove = () => {
             </div>
             <ViewAllButton />
         </div>
+        <div>
+            <SliderTestimonials />
+        </div>
+        </section>
+        
     )
 }
 

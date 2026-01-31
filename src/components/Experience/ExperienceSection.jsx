@@ -26,28 +26,28 @@ export default function ExperienceSection() {
 
     return (
         
-        <section className="gd-experience">
+        <section className="gd-experience rr-marginLeftRight">
             <div className="gd-container">
-            <div className="gd-header">
-                <h2 className="gd-title">THE KLOTHINK EXPERIENCE.</h2>
-                <span className="gd-about">ABOUT US</span>
-            </div>
+                <div className="gd-header">
+                    <h2 className="gd-title">THE KLOTHINK EXPERIENCE.</h2>
+                    <span className="gd-about">ABOUT US</span>
+                </div>
 
-            <p className="gd-description">
-                At Klothink, we breathe life into fashion, blending creativity with commitment. Our journey is fueled by a dedication to delivering unparalleled style and quality. Join us in redefining fashion and embracing a community where every purchase tells a story.
-            </p>
+                <p className="gd-description">
+                    At Klothink, we breathe life into fashion, blending creativity with commitment. Our journey is fueled by a dedication to delivering unparalleled style and quality. Join us in redefining fashion and embracing a community where every purchase tells a story.
+                </p>
 
-            <div className="gd-cards">
-                {visibleFeatures.map((item, index) => (
-                    <div className="gd-feature-card" key={index}>
-                        <div className="header">
-                            <img src={`/assets/img/${item.img}`} alt={item.title}  className="gd-icon"/>
-                            <h3>{item.title}</h3>
+                <div className="gd-cards">
+                    {visibleFeatures.map((item, index) => (
+                        <div className="gd-feature-card" key={index}>
+                            <div className="header">
+                                <img src={`/assets/img/${item.img}`} alt={item.title}  className="gd-icon"/>
+                                <h3>{item.title}</h3>
+                            </div>
+                            <p>{item.description}</p>
                         </div>
-                        <p>{item.description}</p>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>
             </div>
 
             {isMobile && (

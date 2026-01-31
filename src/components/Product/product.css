@@ -1,4 +1,3 @@
-
 .rr-h4{
   margin-bottom: 4px;
 }
@@ -8,19 +7,16 @@
   
 }
 .rr-options{
-  
   display: flex;
   /* new6 */
   /* justify-content: center; */
   align-items: center;
   /* new6 */
   gap:16px;
-
 }
 
-
 .rr-shipping{
-  margin: 16px 0px ;
+  /* margin: 16px 0px ; */
   color:var(--rr-Grey-15);
   font-weight: bold;
 }
@@ -36,7 +32,6 @@
   margin-left: 6px;
   height: 40px;
   text-align: center;
-  
 }
 .rr-sizes button{
   
@@ -71,6 +66,8 @@
   flex: 1;
 }
 .rr-tag {
+  display: flex;
+  align-items: center;
   color: gray;
   font-size: 14px;
   height: 40px;
@@ -187,15 +184,20 @@
   border-radius: 4px;
  
 }
-@media (max-width:992px) {
+@media (max-width:767px) {
+  .fs-productMargin{
+    margin-right: 16px !important;
+    margin-left: 16px !important;
+    margin-bottom: 80px !important;
+  }
   .rr-section{  
-  display: flex;
-  flex-direction: column;
-          }
+    display: flex;
+    flex-direction: column;
+  }
   
   .rr-product {
     flex-direction: column;
-    padding: 16px;
+    /* padding: 16px; */
   }
   .rr-options{
     width:50vw;
@@ -290,23 +292,31 @@
 }
 
 }
-@media (max-width:1440px){
+@media (min-width: 768px) and (max-width:1440px){
+  .fs-productMargin{
+    margin-right: 84px !important;
+    margin-left: 84px !important;
+    margin-bottom: 150px !important;
+  }
   .rr-buttons{
     width:20vw;
-}
-.rr-product{
-  margin-top: 80px;
-}
-
-
-}
-
-@media (min-width:1920px) {
+  }
   .rr-product{
-  margin: auto;
-  font-size: 18px;
-  line-height: 150%;
+    margin-top: 80px;
+  }
 }
+
+@media (min-width:1441px) {
+  .fs-productMargin{
+    margin-right: 162px !important;
+    margin-left: 162px !important;
+    margin-bottom: 200px !important;
+  }
+  .rr-product{
+    margin: auto;
+    font-size: 18px;
+    line-height: 150%;
+  }
   .rr-buttons{
     width: 14vw;
   }
@@ -317,8 +327,7 @@
     padding-right: 20px;
   }
   .rr-product{
-  margin-top: 117px;
-}
-
+    margin-top: 117px;
+  }
 }
 
