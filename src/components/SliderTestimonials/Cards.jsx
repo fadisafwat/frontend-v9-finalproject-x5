@@ -20,10 +20,10 @@ function Cards({ currentIndex, cardsPerView }) {
                                     <img src={testimonial.image} alt="personalphoto" className="ib-personalphoto" />
                                     <div className="ib-nameandstar">
                                         <h2>{testimonial.name}</h2>
-                                        <img src="/assets/img/stars.svg" alt="stars" className="ib-stars" />
+                                        <img src="./assets/img/stars.svg" alt="stars" className="ib-stars" />
                                     </div>
                                 </div>
-                                <img src="/assets/img/Doublequotes.svg" alt="quotes" className="ib-quotes" />
+                                <img src="./assets/img/Doublequotes.svg" alt="quotes" className="ib-quotes" />
                             </div>
                             <p className="ib-description">{testimonial.text}</p>
                         </div>

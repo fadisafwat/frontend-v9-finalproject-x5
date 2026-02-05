@@ -2,8 +2,8 @@
 const ProductGallery = () => {
   return (
     <div className="rr-gallery">
-      <img className="rr-main rr-desktop" src="/assets/img/producthero.png" />
-      <img className="rr-main rr-mobile" src="/assets/img/productm.png" />
+      <img className="rr-main rr-desktop" src="./assets/img/producthero.png" />
+      <img className="rr-main rr-mobile" src="./assets/img/productm.png" />
 
     
 

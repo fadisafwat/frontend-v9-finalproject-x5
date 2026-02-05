@@ -52,13 +52,12 @@
 
 .rr-stats {
   display: grid;
-
   font-family: var(--rr-font-main);
   grid-template-columns: repeat(2, 1fr);
   gap:20px;
   padding: 12px;
   background-color: var(--rr-White-97);
-  width:52vw;
+  width:48vw;
   margin-top: 14vh;
 }
 

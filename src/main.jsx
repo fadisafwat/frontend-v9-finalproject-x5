@@ -12,7 +12,7 @@ import './index.css'*/
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/frontend-v9-finalproject-x5/'>
       <App />
     </BrowserRouter>
   </StrictMode>,

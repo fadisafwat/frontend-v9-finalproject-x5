@@ -10,7 +10,7 @@ const ProductOptions = () => {
         <h4 className="rr-h4">Color</h4>
         <div className="rr-colors">
           {/* <span className="rr-c rr-black"></span> */}
-          <img className="rr-c "src="/assets/img/blackicon.svg"/>
+          <img className="rr-c "src="./assets/img/blackicon.svg"/>
           <span className="rr-c rr-brown"></span>
           <span className="rr-c rr-beige"></span>
         </div>

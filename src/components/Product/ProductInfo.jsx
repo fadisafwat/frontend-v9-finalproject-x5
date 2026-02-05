@@ -10,8 +10,8 @@ const ProductInfo = () => {
                 </div>
       </div>
         <div className="rr-buttons">
-          <button className="rr-buy rr-action"><img src="/assets/img/Buypro.svg"></img>Buy Now</button>
-          <button className="rr-cart rr-action"><img src="/assets/img/Iconpro.svg"></img>Add to cart</button>
+          <button className="rr-buy rr-action"><img src="./assets/img/Buypro.svg"></img>Buy Now</button>
+          <button className="rr-cart rr-action"><img src="./assets/img/Iconpro.svg"></img>Add to cart</button>
         </div>
         
         {/* <p className="rr-price">$69.99</p> */}

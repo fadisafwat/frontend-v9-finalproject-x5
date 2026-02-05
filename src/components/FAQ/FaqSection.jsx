@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./FaqSection.css";
 
 
-const plusIcon ="/assets/img/plus.png";
-const closeIcon ="/assets/img/close.png";
+const plusIcon ="./assets/img/plus.png";
+const closeIcon ="./assets/img/close.png";
 
 const faqData = [
     {

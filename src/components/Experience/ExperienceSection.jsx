@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./ExperienceSection.css";
 
-const arrowDown="/assets/img/arrow.png";
+const arrowDown="./assets/img/arrow.png";
 
 export default function ExperienceSection() {
     const [showAll, setShowAll] = useState(false);
@@ -41,7 +41,7 @@ export default function ExperienceSection() {
                     {visibleFeatures.map((item, index) => (
                         <div className="gd-feature-card" key={index}>
                             <div className="header">
-                                <img src={`/assets/img/${item.img}`} alt={item.title}  className="gd-icon"/>
+                                <img src={`./assets/img/${item.img}`} alt={item.title}  className="gd-icon"/>
                                 <h3>{item.title}</h3>
                             </div>
                             <p>{item.description}</p>

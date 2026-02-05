@@ -20,7 +20,7 @@ export default function Hero() {
 
         <div className="rr-actions">
           <div className="iconwithshop">
-          <Button variant="rr-primary "><img src="/assets/img/Icon.svg" className="IconHero" /><span className="ShopNow">Shop Now</span></Button>
+          <Button variant="rr-primary "><img src="/frontend-v9-finalproject-x5/assets/img/Icon.svg" className="IconHero" /><span className="ShopNow">Shop Now</span></Button>
           </div>
           <Button variant="rr-secondary ">Contact Us</Button>
         </div>
@@ -41,7 +41,7 @@ export default function Hero() {
               <source media="(max-width: 768px)" srcSet="/assets/img/heromobile.png" />
               
               {/* الصورة الافتراضية للشاشات الكبيرة */}
-              <img src="/assets/img/hero.png" alt="Elevate Your Style" />
+              <img src="./assets/img/hero.png" alt="Elevate Your Style" />
         </picture>
       </div>
     </section>
