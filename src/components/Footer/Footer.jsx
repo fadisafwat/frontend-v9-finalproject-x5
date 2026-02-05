@@ -25,12 +25,12 @@ function Footer() {
                     </div>
                     <div className="ib-right-top-footer">
                         <div className="ib-links">
-                            <h3>Home</h3>
+                            <a href="/" className="home-link">Home</a>
                             <div className="ib-link-itms">
                                 <p>Features</p>
                                 <p>Popular Products</p>
-                                <p>Testimonials</p>
-                                <p>FAQ</p>
+                                <a href="#customers-love" className="testimonial-link">Testimonials</a>
+                                <a href="#faq" className="faq-link">FAQ</a>
                             </div>
                         </div>
                         <div className="ib-links">
@@ -60,7 +60,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className="ib-home-prod-cont">
-                            <h3>Home</h3>
+                            <a href="/" className="home-link-smallsec">Home</a>
                             <h3>Products</h3>
                             <h3>Contact</h3>
                         </div>
@@ -75,7 +75,6 @@ function Footer() {
                         <div className="ib-p-priv">
                             <p>Privacy Policy</p>
                         </div>
-
                     </div>
                     <div className="ib-big-screen">
                         <div className="ib-applications">

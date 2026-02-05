@@ -1,3 +1,4 @@
+
 .rr-h4{
   margin-bottom: 4px;
 }
@@ -7,6 +8,7 @@
   
 }
 .rr-options{
+  
   display: flex;
   /* new6 */
   /* justify-content: center; */
@@ -30,7 +32,8 @@
   background-color: var(--rr-Yellow-70);
   color:var(--rr-Grey-15);
   margin-left: 6px;
-  height: 40px;
+  /* height: 40px; */
+  /* width: 20vw; */
   text-align: center;
 }
 .rr-sizes button{
@@ -41,7 +44,7 @@
 .rr-product {
   display: flex;
   gap: 40px;
-  padding: 10px;
+  /* padding: 10px; */
   margin-top: 40px;
   /* max-width: 1200px; */
   margin: auto;
@@ -123,11 +126,14 @@
 
 .rr-desktop{
   display: flex;
-  width: 40vw;
+  /* width:100%; */
+  width:90%;
+  padding-top: 20px;
   
 }
 .rr-border{
   border:solid 1px var( --rr-White-95);
+  margin-top: 16px;
 }
 .rr-mobile{
   display: none;
@@ -137,7 +143,7 @@
   background-color: var( --rr-Grey-15);
   color: #FFFFFF;
   text-align: center;
-  padding-left:18px;
+  padding-left:12px;
 }
 
 .rr-actions {
@@ -161,11 +167,12 @@
 }
 .rr-section{
   display: flex;
- 
+    
 
 }
 .rr-action{
-  width:50%!important;
+  /* width:50%!important; */
+  /* width:10vw; */
   
 } 
 
@@ -184,12 +191,24 @@
   border-radius: 4px;
  
 }
+.rr-info{
+  width:60%;
+}
 @media (max-width:767px) {
   .fs-productMargin{
     margin-right: 16px !important;
     margin-left: 16px !important;
     margin-bottom: 80px !important;
   }
+  .yellowbtn{
+    width:26%;
+  }
+  .rr-tag{
+    width: 90vw;
+  }
+  .rr-product{
+  margin-top: 20px;;
+}
   .rr-section{  
     display: flex;
     flex-direction: column;
@@ -200,7 +219,7 @@
     /* padding: 16px; */
   }
   .rr-options{
-    width:50vw;
+     width:92vw; 
   }
   
   .rr-desktop{
@@ -229,7 +248,7 @@
 }
 .rr-buttons{
   display: flex;
-  width:15vw;
+  width:18vw;
 
 }
 
@@ -281,14 +300,17 @@
   display:flex;
   justify-content: space-between;  
   width:80vw !important;
-  flex-grow: 4;
+  flex-grow: 3;
   font-size:18px;
   padding-bottom: 16px;
-  gap: 10px;
+  gap: 1px;
 }
 
 .rr-right {
   flex: 0;
+}
+.rr-action{
+  width:90vw;
 }
 
 }
@@ -299,12 +321,20 @@
     margin-bottom: 150px !important;
   }
   .rr-buttons{
-    width:20vw;
+    /* width:38%; */
+    width: 40%;
+
   }
   .rr-product{
     margin-top: 80px;
   }
+  .rr-action{
+  /* width:50%!important; */
+  width:10vw;
+  
+} 
 }
+
 
 @media (min-width:1441px) {
   .fs-productMargin{
@@ -318,7 +348,16 @@
     line-height: 150%;
   }
   .rr-buttons{
-    width: 14vw;
+    /* width: 14vw; */
+    width: 16vw;
+    display: flex;
+    justify-content:flex-end;
+    /* justify-content: space-between; */
+  }
+   .rr-buttons{
+    /* width:38%; */
+    /* width: 40%; */
+
   }
   .rr-p-new{
     padding-bottom: 14px;

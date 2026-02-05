@@ -83,7 +83,7 @@ function FaqSection() {
     };
 
     return (
-        <section className="gd-faq rr-marginLeftRight">
+        <section id="faq" className="gd-faq rr-marginLeftRight">
             <div className="gd-containerr">
             <div className="gd-faq-header">
                 <div className="gd-faq-title-row">

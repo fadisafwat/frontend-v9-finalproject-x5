@@ -26,9 +26,17 @@
 }
 
 
-.rr-steps-grid {
+/* .rr-steps-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+} */
+ .rr-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color:var(--rr-White-97);
+  margin-top: 60px;
+  padding: 12px;
   gap: 16px;
 }
 .rr-step-card {

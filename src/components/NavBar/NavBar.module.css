@@ -3,9 +3,14 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
+   
     align-items: center;
     padding: 20px 80px;
     border-bottom: 1px solid #F1F1F3;
+
+
+
+
 }
 
 .fsMenuBtn {
@@ -122,6 +127,7 @@
     .fsMenuBtn {
         display: none;
     }
+    
 
     .fsNavLinks {
         position: static;
@@ -131,3 +137,10 @@
         pointer-events: auto;
     }
 }
+
+
+@media (min-width: 1920px) {
+    .fsNavbar {
+    
+    padding: 20px 151px;
+}}

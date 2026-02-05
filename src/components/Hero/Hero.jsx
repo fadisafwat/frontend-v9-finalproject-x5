@@ -36,7 +36,7 @@ export default function Hero() {
       </div>
 
       <div className="rr-hero-image">
-         <picture>
+        <picture className="rr-pic">
               {/* الصورة للشاشات الصغيرة (أقل من 768 بكسل) */}
               <source media="(max-width: 768px)" srcSet="/assets/img/heromobile.png" />
               

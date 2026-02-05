@@ -103,6 +103,41 @@
             width: 4.22vw;
         }
 
+        .home-link {
+            display: block;
+            text-decoration: none;
+            cursor: pointer;
+            padding-bottom: 24px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 130%;
+            letter-spacing: -3%;
+            color: #262626;
+        }
+
+        .testimonial-link {
+            display: block;
+            text-decoration: none;
+            cursor: pointer;
+            padding-bottom: 18px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            letter-spacing: -3%;
+            color: #656567;
+        }
+
+        .faq-link {
+            display: block;
+            text-decoration: none;
+            cursor: pointer;
+            padding-bottom: 18px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            letter-spacing: -3%;
+            color: #656567;
+        }
 
         h3 {
             padding-bottom: 24px;
@@ -209,7 +244,7 @@
             padding-top: 80px;
             padding-bottom: 80px;
             margin: 0px;
-            width: 30.21;
+            width: 30.21vw;
         }
 
         .ib-logo-hiddenitm {
@@ -252,7 +287,7 @@
             justify-content: flex-end;
             justify-content: space-between;
             padding: 60px 0px 60px 60px;
-            width: 59.5vw;
+            width: 58.7vw;
             gap: 40px;
 
             .ib-links {
@@ -438,9 +473,21 @@
             gap: 0px;
 
 
+
             .ib-home-prod-cont {
                 display: flex;
                 gap: 24px;
+
+                .home-link-smallsec {
+                    text-decoration: none;
+                    cursor: pointer;
+                    padding-bottom: 0px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    text-align: center;
+                    color: #262626;
+
+                }
 
                 h3 {
                     padding-bottom: 0px;
